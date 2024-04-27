@@ -35,7 +35,8 @@ Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 <H3>PROGRAM:</H3>
 <H3>DEVELOPED BY:PAVANA.G</H3>
 <H3>REGISTER NUMBER: 212222230105</H3>
-```python
+
+```py
 def predict_matrix(point, weights):
   gaussian_rbf_0 = gaussian_rbf(np.array (point), mu1)
   gaussian_rbf_1 = gaussian_rbf(np.array (point), mu2)
